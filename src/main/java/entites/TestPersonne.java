@@ -28,8 +28,8 @@ public class TestPersonne {
 		personne2.setAdresse(new AdressePostale(5, "route de Bordeaux",14000,"Poitiers"));
 		
 		System.out.println("Test getNom: "+ personne2.getNom());
-		System.out.println("Test getAdresse: "+ personne2.getAdresse());
 		System.out.println("Test getPrenom: "+ personne2.getPrenom());
+		System.out.println("Test getAdresse: "+ personne2.getAdresse().getVille());
 	}
 
 }

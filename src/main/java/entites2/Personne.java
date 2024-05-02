@@ -38,8 +38,8 @@ public class Personne {
 		return prenom;
 	}
 	
-	public String getAdresse() {
-		return String.valueOf(adresse.numRue) + " " + adresse.libelle + " " + String.valueOf(adresse.codePostale) + " " + adresse.ville;
+	public AdressePostale getAdresse() {
+		return adresse;
 	}
 
 }
