@@ -16,6 +16,20 @@ public class TestPersonne {
 		
 		System.out.println(personne1.prenom + " " + personne1.nom);
 		System.out.println(personne2.prenom + " " + personne2.nom);
+		
+		personne2.afficher();
+		
+		System.out.println("Test getNom: "+ personne2.getNom());
+		System.out.println("Test getAdresse: "+ personne2.getAdresse());
+		System.out.println("Test getPrenom: "+ personne2.getPrenom());
+		
+		personne2.setNom("Michelin");
+		personne2.setPrenom("Didier");
+		personne2.setAdresse(new AdressePostale(5, "route de Bordeaux",14000,"Poitiers"));
+		
+		System.out.println("Test getNom: "+ personne2.getNom());
+		System.out.println("Test getAdresse: "+ personne2.getAdresse());
+		System.out.println("Test getPrenom: "+ personne2.getPrenom());
 	}
 
 }
