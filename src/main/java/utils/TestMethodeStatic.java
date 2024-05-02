@@ -21,6 +21,9 @@ public class TestMethodeStatic {
 		}else {
 			System.out.println(a + " > " + b);
 		}
+		
+		int max = Integer.max(a,b);
+		System.out.println(max);
 	}
 
 }
