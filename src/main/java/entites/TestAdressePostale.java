@@ -4,18 +4,9 @@ public class TestAdressePostale {
 
 	public static void main(String[] args) {
 		
-		AdressePostale adresse1 = new AdressePostale();
-		AdressePostale adresse2 = new AdressePostale();
+		AdressePostale adresse1 = new AdressePostale(8,"rue des poiriers",79010,"Niort");
+		AdressePostale adresse2 = new AdressePostale(10,"rue des cerisiers",86110,"Poitiers");
 		
-		adresse1.numRue = 8;
-		adresse1.libelle ="rue des poiriers";
-		adresse1.codePostale =79010;
-		adresse1.ville = "Niort";
-		
-		adresse2.numRue = 10;
-		adresse2.libelle ="rue des cerisiers";
-		adresse2.codePostale =86110;
-		adresse2.ville = "Poitiers";
 	}
 
 }
