@@ -2,6 +2,8 @@ package fr.diginamic.banque.entites;
 
 public class Debit extends Operation {
 
+	double debit;
+	
 	public Debit(String date, double result) {
 		super(date, result);
 	}
