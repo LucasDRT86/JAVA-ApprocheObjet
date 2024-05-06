@@ -1,6 +1,6 @@
 package fr.diginamic.maison;
 
-public abstract class Piece {
+public class Piece {
 	private double superficie;
 	private int etage;
 	
@@ -16,4 +16,11 @@ public abstract class Piece {
 	public int getEtage() {
 		return etage;
 	}
+
+	@Override
+	public String toString() {
+		return "superficie=" + superficie + ", etage=" + etage ;
+	}
+	
+	
 }
