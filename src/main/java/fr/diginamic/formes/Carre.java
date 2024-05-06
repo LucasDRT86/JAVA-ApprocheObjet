@@ -2,7 +2,7 @@ package fr.diginamic.formes;
 
 public class Carre extends Rectangle {
 
-	double longueur;
+	private double longueur;
 
 	public Carre(double longueur) {
 		this.longueur = longueur;

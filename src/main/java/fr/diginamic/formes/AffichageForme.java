@@ -2,7 +2,7 @@ package fr.diginamic.formes;
 
 public class AffichageForme {
 	
-	Forme forme;
+	private Forme forme;
 
 	public void displayForme(Forme forme) {
 		

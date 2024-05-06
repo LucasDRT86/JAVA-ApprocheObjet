@@ -2,7 +2,7 @@ package fr.diginamic.entites;
 
 public class Cercle {
 
-	double rayon;
+	private double rayon;
 
 	public Cercle(double rayon) {
 		this.rayon = rayon;
