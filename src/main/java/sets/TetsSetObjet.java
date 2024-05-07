@@ -17,7 +17,7 @@ public class TetsSetObjet {
 		Pays totalPib = new Pays(" ",0,0);	
 		
 		for(Pays pays : setPays) {
-			if(pays.getPib() * pays.nbHabitant > totalPib.getPib() * totalPib.nbHabitant) {
+			if(pays.getPib() * pays.getNbHabitant() > totalPib.getPib() * totalPib.getNbHabitant()) {
 				totalPib = pays;
 			}
 		}
