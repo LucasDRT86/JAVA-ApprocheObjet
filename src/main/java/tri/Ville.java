@@ -1,4 +1,4 @@
-package fichier;
+package tri;
 
 public class Ville implements Comparable<Ville> {
 	String Nom;
@@ -36,6 +36,7 @@ public class Ville implements Comparable<Ville> {
 		return "Nom=" + Nom + ", codeDpt=" + codeDpt + ", nomRegion=" + nomRegion + ", poptotal=" + poptotal;
 	}
 	
+	
 	public int compareTo(Ville autre) {
 		
 		if(this.getPoptotal() < autre.getPoptotal()) {
@@ -45,5 +46,6 @@ public class Ville implements Comparable<Ville> {
 		}
 		return 0;
 	}
+	
 	
 }
