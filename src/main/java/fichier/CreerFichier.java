@@ -14,7 +14,7 @@ public class CreerFichier {
 
 	public static void main(String[] args) throws IOException {
 		Path readPath = Paths.get("C:/Users/lucas/OneDrive/Documents/Cours/CDA/JAVA/recensement.csv");
-		Path writePath = Paths.get("C:/Users/lucas/OneDrive/Documents/Cours/CDA/JAVA/TP/JAVAObjet/JAVA-ApprocheObjet");
+		Path writePath = Paths.get("C:/Users/lucas/OneDrive/Documents/Cours/CDA/JAVA/100Lignes.txt");
 		
 		List<String> lines = Files.readAllLines(readPath, StandardCharsets.UTF_8);
 	
@@ -26,6 +26,10 @@ public class CreerFichier {
 
 			System.out.println(i + " - " + lines.get(i));
 		}
+		
+		Files.write(writePath, lines);
+		
+		
 		
 	}
 
