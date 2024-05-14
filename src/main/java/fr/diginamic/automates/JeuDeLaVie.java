@@ -58,12 +58,14 @@ public class JeuDeLaVie {
 				if(grille.estVivante(i, j)){
 					if(nbVoisins == 2 || nbVoisins == 3 ) {
 						newGrille.setVivante(i, j, true);
+						System.out.println("test");
 					} else {
 						newGrille.setVivante(i, j, false);
 					}
 				} else {
 					if (nbVoisins == 3) {
 						newGrille.setVivante(i, j, true);
+						System.out.println("test2");
 					} else {
 						newGrille.setVivante(i, j, false);
                     }

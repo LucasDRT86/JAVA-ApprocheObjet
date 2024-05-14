@@ -7,10 +7,10 @@ public class TestJeuDeLaVie {
 		
 		JeuDeLaVie jeu = new JeuDeLaVie(taille);
 		
-		jeu.setEtatCellule(3, 0, true);
-	    jeu.setEtatCellule(1, 2, true);
-	    jeu.setEtatCellule(3, 2, true);
-	    jeu.setEtatCellule(3, 1, true);
+		jeu.setEtatCellule(0, 0, true);
+	    jeu.setEtatCellule(1, 0, true);
+	    jeu.setEtatCellule(2, 1, true);
+	    jeu.setEtatCellule(1, 1, true);
 	    
 	    
 		

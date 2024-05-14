@@ -51,8 +51,8 @@ public class Grille {
 		int count =0;
 		int[][] adressesVoisins = {{-1, -1}, {-1, 0}, {-1, 1}, {0, -1}, {0, 1}, {1, -1}, {1, 0}, {1, 1}};
 		for(int[] adresse : adressesVoisins) {
-			int newX = x + + adresse[0];
-			int newY = x + + adresse[1];
+			int newX = x + adresse[0];
+			int newY = y + adresse[1];
 			
 			if(estDansGrille(newX, newY) && estVivante(newX, newY)) {
 				count++;
