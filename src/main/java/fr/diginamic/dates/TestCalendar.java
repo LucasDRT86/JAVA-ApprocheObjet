@@ -18,10 +18,10 @@ public class TestCalendar {
 		 
 		 System.out.println(sdf.format(thisDate));
 		 
-		 SimpleDateFormat sdfFrance = new SimpleDateFormat("EEE dd MMMMM yyyy HH:mm:ss", Locale.FRANCE);
-		 SimpleDateFormat sdfRusse = new SimpleDateFormat("EEE dd MMMMM yyyy HH:mm:ss", new Locale("ru", "RU"));
-		 SimpleDateFormat sdfChinois = new SimpleDateFormat("EEE dd MMMMM yyyy HH:mm:ss", Locale.CHINESE);
-		 SimpleDateFormat sdfAllemand = new SimpleDateFormat("EEE dd MMMMM yyyy HH:mm:ss", Locale.GERMAN);
+		 SimpleDateFormat sdfFrance = new SimpleDateFormat("EEEE dd MMMMM yyyy HH:mm:ss", Locale.FRANCE);
+		 SimpleDateFormat sdfRusse = new SimpleDateFormat("EEEE dd MMMMM yyyy HH:mm:ss", new Locale("ru", "RU"));
+		 SimpleDateFormat sdfChinois = new SimpleDateFormat("EEEE dd MMMMM yyyy HH:mm:ss", Locale.CHINESE);
+		 SimpleDateFormat sdfAllemand = new SimpleDateFormat("EEEE dd MMMMM yyyy HH:mm:ss", Locale.GERMAN);
 		 
 		 System.out.println("Date Francaise: " + sdfFrance.format(thisDate));
 		 System.out.println("Date Russe: " + sdfRusse.format(thisDate));

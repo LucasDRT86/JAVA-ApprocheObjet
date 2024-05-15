@@ -1,5 +1,7 @@
 package listes;
 
+import java.util.Objects;
+
 public class Ville {
 
 	private String nom;
@@ -29,6 +31,16 @@ public class Ville {
 	@Override
 	public String toString() {
 		return "nom=" + nom + ", nbHabitants=" + nbHabitants;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if(!(obj instanceof Ville)) {
+			return false;
+		}
+		
+		Ville other = (Ville) obj;
+		return Objects.equals(nom, other.getNom()) && this.nbHabitants == other.getNbHabitants();
 	}
 	
 	
